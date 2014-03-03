@@ -1,0 +1,121 @@
+/* @file Print Styles This probably needs work, but it's a good starting point. */
+/* Body */
+/* line 11, ../sass/print.sass */
+body { width: 100% !important; margin: 0 !important; padding: 0 !important; line-height: 1.4; word-spacing: 1.1pt; letter-spacing: 0.2pt; font-family: Verdana, Geneva, Arial, Helvetica, sans-serif; color: black; background: none; font-size: 11pt; }
+
+/* Links */
+/* line 25, ../sass/print.sass */
+a { background: transparent; font-weight: 700; text-decoration: underline; color: #0000ee; }
+/* line 31, ../sass/print.sass */
+a[href^="http://"]:after, a[href^="http://"]:visited:after { content: "(" attr(href) ")"; font-size: 10pt; }
+
+/* Strip background from likely candidates */
+/* line 39, ../sass/print.sass */
+div[id*="wrapper"], [class*="title"], [class*="inner"], header, footer, #branding, #container, #columns, .columns-inner, #content-column, .content-inner, .region, .region-header, .region-content, .article, .article-title, .article-content, .comment, .comment-title, .comment-content, .block, .block-inner, .block-title, .block-content, table, table * { background: none !important; }
+
+/* Hide various bits of the page */
+/* line 70, ../sass/print.sass */
+.sidebar, #breadcrumb, .nav, .field-type-taxonomy-term-reference, ul.links, .feed-icon, .poll .bar, .poll .foreground, .comment-form, #comment-form, .book-navigation, .tabs, .action-links, .pager, .messages, .help { display: none; }
+
+/* Ensure the display the main content region */
+/* line 90, ../sass/print.sass */
+#content { display: block !important; }
+
+/* Layout */
+/* line 95, ../sass/print.sass */
+#header { margin-bottom: 20px; }
+
+/* line 98, ../sass/print.sass */
+.content-inner { margin: 0 !important; padding: 0 !important; }
+
+/* HTML elements */
+/* line 105, ../sass/print.sass */
+h1, h2, h3, h4, h5, h6 { color: #333333; margin: 0; padding: 0; line-height: 1; }
+
+/* line 116, ../sass/print.sass */
+h1 { font-size: 14pt; }
+
+/* line 119, ../sass/print.sass */
+h2 { font-size: 13pt; }
+
+/* line 122, ../sass/print.sass */
+h3 { font-size: 12pt; }
+
+/* line 125, ../sass/print.sass */
+h4, h5, h6 { font-size: 11pt; }
+
+/* line 130, ../sass/print.sass */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, #site-name a, #site-slogan { text-decoration: none !important; color: #333333; }
+
+/* line 142, ../sass/print.sass */
+.h-group a:link, .h-group a:visited { text-decoration: none; }
+
+/* line 146, ../sass/print.sass */
+#page-title { margin-top: 20px; }
+
+/* line 149, ../sass/print.sass */
+pre, code, tt, samp, kbd, var { font-size: 10pt; font-family: Consolas, "Lucida Console", Menlo, Monaco, "DejaVu Sans Mono", monospace, sans-serif; }
+
+/* line 158, ../sass/print.sass */
+blockquote { margin: 20px; padding: 10px; font-size: 10pt; font-style: italic; background: #eeeeee; }
+
+/* line 165, ../sass/print.sass */
+hr { background-color: #666666; }
+
+/* Header, Logo, Site name */
+/* line 170, ../sass/print.sass */
+#header { padding-bottom: 20px; }
+
+/* line 173, ../sass/print.sass */
+#logo img { padding: 0 10px 0 0; margin: 0 !important; float: none !important; }
+
+/* Images */
+/* line 180, ../sass/print.sass */
+img { float: left; margin: 4px 20px 10px 0; page-break-inside: avoid; }
+
+/* line 185, ../sass/print.sass */
+a img { border: none; }
+
+/* Tables */
+/* line 190, ../sass/print.sass */
+table { margin: 1px; text-align: left; }
+
+/* line 194, ../sass/print.sass */
+th { border-bottom: 1px solid #333333; font-weight: 700; }
+
+/* line 198, ../sass/print.sass */
+td { border-bottom: 1px solid #333333; }
+
+/* line 201, ../sass/print.sass */
+th, td { padding: 4px 10px 4px 0; }
+
+/* line 205, ../sass/print.sass */
+tfoot { font-style: italic; }
+
+/* line 208, ../sass/print.sass */
+caption { margin-bottom: 10px; text-align: left; }
+
+/* line 212, ../sass/print.sass */
+thead { display: table-header-group; }
+
+/* line 215, ../sass/print.sass */
+tr { page-break-inside: avoid; }
+
+/* Forms */
+/* line 220, ../sass/print.sass */
+form { margin-bottom: 10px; }
+
+/* Poll module */
+/* line 226, ../sass/print.sass */
+.poll .text, .poll .percent, .poll .total { text-align: left; }
+/* line 230, ../sass/print.sass */
+.poll form { margin-bottom: 0; }
+
+/* Articles */
+/* line 236, ../sass/print.sass */
+.node, .comment { margin-bottom: 20px; overflow: hidden; page-break-inside: avoid; }
+
+/* line 242, ../sass/print.sass */
+.submitted { color: #666666; text-decoration: none; font-size: 9pt; font-weight: 400; margin: 0; padding: 0; }
+/* line 249, ../sass/print.sass */
+.submitted a { color: #666666; text-decoration: none; font-size: 9pt; font-weight: 400; margin: 0; padding: 0; }

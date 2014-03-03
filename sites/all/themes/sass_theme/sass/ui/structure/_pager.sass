@@ -1,0 +1,52 @@
+/* Paginador
+
+body #content .view .item-list ul.pager li
+  &:after
+    clear: none
+    display: inline
+    content: "."
+    height: 0
+    visibility: hidden
+  .ajax-progress .throbber
+    display: none
+  border-top: none
+  padding: 0
+  border-bottom: 0
+  
+  a
+    color: $light_blue
+    padding: 1px 5px 
+    border: 1px solid $white
+    font-family: $semibold
+    
+    &:hover
+      border: 1px solid $light_blue
+  
+  &.pager-current 
+    border: 1px solid $black
+    padding: 1px 1px 1px 5px!important
+    
+  &.pager-next a
+    background-image: url(../images/flecha_dcha.png)
+   
+  &.pager-last a
+    background-image: url(../images/flecha_dcha_fin.png)
+    
+  &.pager-first a
+    background-image: url(../images/flecha_izq_fin.png)
+   
+  &.pager-previous a
+    background-image: url(../images/flecha_izq.png)
+          
+  &.pager-next a, &.pager-last a
+    padding-right: 15px
+    background-repeat: no-repeat
+    background-position: right 6px
+    
+    &:hover
+      background-position: right -13px
+  
+  &.pager-previous a, &.pager-first a
+    padding-left: 15px
+    background-repeat: no-repeat
+    background-position: left 6px

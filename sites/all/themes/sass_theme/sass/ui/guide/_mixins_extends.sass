@@ -1,0 +1,117 @@
+/* ------------------
+  Mixins and Extends
+  -------------------
+
+@mixin last()
+  padding-right: 0
+
+@mixin first()
+  padding-left: 0
+
+@mixin fright()
+  float: right
+  margin-right: 10px
+
+@mixin fleft($margen: 10px)
+  float: left
+  margin-right: $margen
+
+@mixin call()
+  clear: both
+
+.hover_amarillo
+  &:hover
+    color: $yellow
+    text-decoration: none
+
+.hide
+  position: absolute
+  left: -9999px
+
+.bullet_off
+  .item-list
+    ul
+      margin: 0
+      padding: 0
+      list-style: none
+    li
+      margin: 0
+      padding: 0
+      list-style: none
+
+.first_on
+  margin-right: 20px
+.first_off
+  margin-right: 0
+.last_on
+  margin-left: 20px
+.last_off
+  margin-right: 0
+
+.inner
+  .block-inner
+    margin: 0
+
+.iframe_col4
+  iframe
+    max-width: $col4
+    height: auto
+    width: 100%
+
+.clear-fix:after
+  clear: both
+  content: "."
+  display: block
+  height: 0
+  visibility: hidden
+      
+.col1
+  width: $col1
+  float: left
+
+.col2
+  width: $col2
+  float: left
+
+.col3
+  width: $col3
+  float: left
+
+.col4
+  width: $col4
+  float: left
+  
+.col5
+  width: $col5
+  float: left
+
+.col6
+  width: $col6
+  float: left
+
+.col7
+  width: $col7
+  float: left
+
+.col8
+  width: $col8
+  float: left
+
+.col9
+  width: $col9
+  float: left
+
+.col10
+  width: $col10
+  float: left
+
+.col11
+  width: $col11
+  float: left
+
+.col12
+  width: $col12
+  float: left
+
+.full
+  width: $full

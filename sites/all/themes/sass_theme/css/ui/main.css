@@ -1,0 +1,238 @@
+/*------------------- IMPORT PARTIALS  ------------------- */
+/*------------------- Color variables  ------------------- */
+/* ----------------- Fonts variables ------------------ */
+/* --------------------- Font's definitions  ---------------------- */
+@font-face { font-family: "fairview"; src: url("../../fonts/fairview_regular-webfont.eot"); src: url("../../fonts/fairview_regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/fairview_regular-webfont.woff") format("woff"), url("../../fonts/fairview_regular-webfont.ttf") format("truetype"), url("../../fonts/fairview_regular-webfont.svg#fairview") format("svg"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: "fairview_smallcaps"; src: url("../../fonts/fairview_smallcaps-webfont.eot"); src: url("../../fonts/fairview_smallcaps-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/fairview_smallcaps-webfont.woff") format("woff"), url("../../fonts/fairview_smallcaps-webfont.ttf") format("truetype"), url("../../fonts/fairview_smallcaps-webfont.svg#") format("svg"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: "raleway"; src: url("../../fonts/raleway-regular-webfont.eot"); src: url("../../fonts/raleway-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/raleway-regular-webfont.woff") format("woff"), url("../../fonts/raleway-regular-webfont.ttf") format("truetype"), url("../../fonts/raleway-regular-webfont.svg#raleway") format("svg"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: "raleway_semi"; src: url("../../fonts/raleway-semibold-webfont.eot"); src: url("../../fonts/raleway-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../../fonts/raleway-semibold-webfont.woff") format("woff"), url("../../fonts/raleway-semibold-webfont.ttf") format("truetype"), url("../../fonts/raleway-semibold-webfont.svg#raleway-semibold") format("svg"); font-weight: normal; font-style: normal; }
+
+/* ------------------ Height Variables ------------------- */
+/* ------------------ Structure ------------------- */
+/* Body */
+/* line 70, ../../sass/ui/guide/_core.sass */
+body { font-family: raleway; color: #333333; font-size: 14px; line-height: 1.7em; }
+
+/* Titles. */
+/* line 77, ../../sass/ui/guide/_core.sass */
+h1, h2, h3, h4, h5, h6 { line-height: 1.3em; font-family: fairview; }
+
+/* line 81, ../../sass/ui/guide/_core.sass */
+h1 { font-size: 2.2em; font-weight: 300; padding: 0 0 0.5em; margin: 0; }
+
+/* line 87, ../../sass/ui/guide/_core.sass */
+h2 { font-size: 1.8em; font-weight: 300; margin-top: 20px; margin-bottom: 0.75em; }
+
+/* line 93, ../../sass/ui/guide/_core.sass */
+h3 { font-size: 1.4em; margin-bottom: 1em; }
+
+/* line 97, ../../sass/ui/guide/_core.sass */
+h4 { font-size: 1.2em; margin-bottom: 0.8em; }
+
+/* line 101, ../../sass/ui/guide/_core.sass */
+h5 { font-size: 1.1em; font-weight: 600; margin-bottom: 0; }
+
+/* line 106, ../../sass/ui/guide/_core.sass */
+h6 { font-size: 1em; font-weight: bold; }
+
+/* Paragraph styles. */
+/* line 111, ../../sass/ui/guide/_core.sass */
+p { margin: 0 0 1em 0; }
+
+/* List styles. */
+/* line 115, ../../sass/ui/guide/_core.sass */
+ul, ol { margin-left: 0; padding-left: 2em; }
+
+/* Table styles. */
+/* line 120, ../../sass/ui/guide/_core.sass */
+table { width: 99%; }
+
+/* line 124, ../../sass/ui/guide/_core.sass */
+tr.even td { padding: 10px 5px; }
+/* line 126, ../../sass/ui/guide/_core.sass */
+tr.odd { background-color: white; }
+/* line 128, ../../sass/ui/guide/_core.sass */
+tr.odd td { padding: 10px 5px; }
+
+/* Code. */
+/* line 132, ../../sass/ui/guide/_core.sass */
+pre, code, tt { font: 1em "andale mono", "lucida console", monospace; line-height: 1.5; }
+
+/* line 136, ../../sass/ui/guide/_core.sass */
+pre { background-color: #efefef; display: block; padding: 5px; margin: 5px 0; border: 1px solid #aaaaaa; }
+
+/* List styles. */
+/* line 144, ../../sass/ui/guide/_core.sass */
+ul { list-style-type: disc; }
+/* line 146, ../../sass/ui/guide/_core.sass */
+ul ul { list-style-type: circle; }
+/* line 148, ../../sass/ui/guide/_core.sass */
+ul ul ul { list-style-type: square; }
+/* line 150, ../../sass/ui/guide/_core.sass */
+ul ul ul ul { list-style-type: circle; }
+
+/* line 153, ../../sass/ui/guide/_core.sass */
+ol { list-style-type: decimal; }
+/* line 155, ../../sass/ui/guide/_core.sass */
+ol ol { list-style-type: lower-alpha; }
+/* line 157, ../../sass/ui/guide/_core.sass */
+ol ol ol { list-style-type: decimal; }
+
+/* Abbreviation. */
+/* line 161, ../../sass/ui/guide/_core.sass */
+abbr { border-bottom: 1px dotted #666666; cursor: help; white-space: nowrap; }
+
+/* Grid Parameters */
+/* Grid Width Calculations */
+/* ------------------ Mixins and Extends ------------------- */
+/* line 23, ../../sass/ui/guide/_mixins_extends.sass */
+.hover_amarillo:hover { color: #faf594; text-decoration: none; }
+
+/* line 27, ../../sass/ui/guide/_mixins_extends.sass */
+.hide, .front #block-system-main { position: absolute; left: -9999px; }
+
+/* line 33, ../../sass/ui/guide/_mixins_extends.sass */
+.bullet_off .item-list ul { margin: 0; padding: 0; list-style: none; }
+/* line 37, ../../sass/ui/guide/_mixins_extends.sass */
+.bullet_off .item-list li { margin: 0; padding: 0; list-style: none; }
+
+/* line 42, ../../sass/ui/guide/_mixins_extends.sass */
+.first_on { margin-right: 20px; }
+
+/* line 44, ../../sass/ui/guide/_mixins_extends.sass */
+.first_off { margin-right: 0; }
+
+/* line 46, ../../sass/ui/guide/_mixins_extends.sass */
+.last_on { margin-left: 20px; }
+
+/* line 48, ../../sass/ui/guide/_mixins_extends.sass */
+.last_off { margin-right: 0; }
+
+/* line 52, ../../sass/ui/guide/_mixins_extends.sass */
+.inner .block-inner { margin: 0; }
+
+/* line 56, ../../sass/ui/guide/_mixins_extends.sass */
+.iframe_col4 iframe { max-width: 31.332%; height: auto; width: 100%; }
+
+/* line 61, ../../sass/ui/guide/_mixins_extends.sass */
+.clear-fix:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+
+/* line 68, ../../sass/ui/guide/_mixins_extends.sass */
+.col1 { width: 8.333%; float: left; }
+
+/* line 72, ../../sass/ui/guide/_mixins_extends.sass */
+.col2 { width: 14.666%; float: left; }
+
+/* line 76, ../../sass/ui/guide/_mixins_extends.sass */
+.col3 { width: 22.999%; float: left; }
+
+/* line 80, ../../sass/ui/guide/_mixins_extends.sass */
+.col4 { width: 31.332%; float: left; }
+
+/* line 84, ../../sass/ui/guide/_mixins_extends.sass */
+.col5 { width: 39.665%; float: left; }
+
+/* line 88, ../../sass/ui/guide/_mixins_extends.sass */
+.col6 { width: 47.998%; float: left; }
+
+/* line 92, ../../sass/ui/guide/_mixins_extends.sass */
+.col7 { width: 56.331%; float: left; }
+
+/* line 96, ../../sass/ui/guide/_mixins_extends.sass */
+.col8 { width: 64.664%; float: left; }
+
+/* line 100, ../../sass/ui/guide/_mixins_extends.sass */
+.col9 { width: 72.997%; float: left; }
+
+/* line 104, ../../sass/ui/guide/_mixins_extends.sass */
+.col10 { width: 81.33%; float: left; }
+
+/* line 108, ../../sass/ui/guide/_mixins_extends.sass */
+.col11 { width: 89.663%; float: left; }
+
+/* line 112, ../../sass/ui/guide/_mixins_extends.sass */
+.col12 { width: 97.996%; float: left; }
+
+/* line 116, ../../sass/ui/guide/_mixins_extends.sass */
+.full { width: 99.996%; }
+
+/* Main Front page */
+/* Header */
+/* line 3, ../../sass/ui/structure/_header.sass */
+#header-wrapper .container { position: relative; }
+/* line 5, ../../sass/ui/structure/_header.sass */
+#header-wrapper header#header { width: 100%; }
+/* line 7, ../../sass/ui/structure/_header.sass */
+#header-wrapper #branding { position: relative; margin: 0; /* Logo */ /* SiteName & Slogan */ /* LeaderBoard styles */ }
+/* line 11, ../../sass/ui/structure/_header.sass */
+#header-wrapper #branding #logo { padding: 0; float: left; position: relative; z-index: 9; }
+/* line 16, ../../sass/ui/structure/_header.sass */
+#header-wrapper #branding #logo img { width: 148px; height: 147px; }
+/* line 20, ../../sass/ui/structure/_header.sass */
+#header-wrapper #branding #name-and-slogan { font-family: fairview; overflow: hidden; padding-left: 45px; }
+/* line 24, ../../sass/ui/structure/_header.sass */
+#header-wrapper #branding #name-and-slogan h1 { margin-top: 5px; }
+/* line 26, ../../sass/ui/structure/_header.sass */
+#header-wrapper #branding #name-and-slogan h1 a { text-align: center; color: white; text-decoration: none; font-size: 48px; }
+/* line 31, ../../sass/ui/structure/_header.sass */
+#header-wrapper #branding #name-and-slogan h2 { font-size: 28px; color: #333333; margin: 0; padding: 0; font-weight: normal; }
+/* line 39, ../../sass/ui/structure/_header.sass */
+#header-wrapper #branding #leaderboard-wrapper { float: right; }
+/* line 41, ../../sass/ui/structure/_header.sass */
+#header-wrapper #branding #leaderboard-wrapper .container { height: auto; overflow: visible; width: auto; position: static; }
+
+/* Menu Principal */
+/* line 3, ../../sass/ui/structure/_menu.sass */
+#nav-wrapper a { padding: 10px; font-family: raleway_semi; text-transform: uppercase; color: #333333; }
+/* line 8, ../../sass/ui/structure/_menu.sass */
+#nav-wrapper a:hover, #nav-wrapper a.active { -webkit-transition: 0.2s ease-in-out; -moz-transition: 0.2s ease-in-out; -o-transition: 0.2s ease-in-out; transition: 0.2s ease-in-out; border-bottom: 8px solid #faf594; text-decoration: none; height: 12px; }
+
+/* Paginador */
+/* line 3, ../../sass/ui/structure/_pager.sass */
+body #content .view .item-list ul.pager li { border-top: none; padding: 0; border-bottom: 0; }
+/* line 4, ../../sass/ui/structure/_pager.sass */
+body #content .view .item-list ul.pager li:after { clear: none; display: inline; content: "."; height: 0; visibility: hidden; }
+/* line 10, ../../sass/ui/structure/_pager.sass */
+body #content .view .item-list ul.pager li .ajax-progress .throbber { display: none; }
+/* line 16, ../../sass/ui/structure/_pager.sass */
+body #content .view .item-list ul.pager li a { color: #b4dde0; padding: 1px 5px; border: 1px solid white; font-family: raleway_semi; }
+/* line 22, ../../sass/ui/structure/_pager.sass */
+body #content .view .item-list ul.pager li a:hover { border: 1px solid #b4dde0; }
+/* line 25, ../../sass/ui/structure/_pager.sass */
+body #content .view .item-list ul.pager li.pager-current { border: 1px solid #333333; padding: 1px 1px 1px 5px !important; }
+/* line 29, ../../sass/ui/structure/_pager.sass */
+body #content .view .item-list ul.pager li.pager-next a { background-image: url(../images/flecha_dcha.png); }
+/* line 32, ../../sass/ui/structure/_pager.sass */
+body #content .view .item-list ul.pager li.pager-last a { background-image: url(../images/flecha_dcha_fin.png); }
+/* line 35, ../../sass/ui/structure/_pager.sass */
+body #content .view .item-list ul.pager li.pager-first a { background-image: url(../images/flecha_izq_fin.png); }
+/* line 38, ../../sass/ui/structure/_pager.sass */
+body #content .view .item-list ul.pager li.pager-previous a { background-image: url(../images/flecha_izq.png); }
+/* line 41, ../../sass/ui/structure/_pager.sass */
+body #content .view .item-list ul.pager li.pager-next a, body #content .view .item-list ul.pager li.pager-last a { padding-right: 15px; background-repeat: no-repeat; background-position: right 6px; }
+/* line 46, ../../sass/ui/structure/_pager.sass */
+body #content .view .item-list ul.pager li.pager-next a:hover, body #content .view .item-list ul.pager li.pager-last a:hover { background-position: right -13px; }
+/* line 49, ../../sass/ui/structure/_pager.sass */
+body #content .view .item-list ul.pager li.pager-previous a, body #content .view .item-list ul.pager li.pager-first a { padding-left: 15px; background-repeat: no-repeat; background-position: left 6px; }
+
+/* Footer */
+/* line 5, ../../sass/ui/structure/_footer.sass */
+#footer-wrapper #footer .menu-footer ul { text-align: center; }
+/* line 7, ../../sass/ui/structure/_footer.sass */
+#footer-wrapper #footer .menu-footer ul li { display: inline-block; margin-right: 10px; }
+/* line 10, ../../sass/ui/structure/_footer.sass */
+#footer-wrapper #footer .menu-footer ul li a { text-decoration: underline; color: white; }
+/* line 13, ../../sass/ui/structure/_footer.sass */
+#footer-wrapper #footer .menu-footer ul li a:hover { color: white; -webkit-transition: 0.2s ease-in-out; -moz-transition: 0.2s ease-in-out; -o-transition: 0.2s ease-in-out; transition: 0.2s ease-in-out; }
+
+@-o-viewport { width: device-width; }
+
+@-ms-viewport { width: device-width; }
+
+@viewport { width: device-width; }
+
+/* line 10, ../../sass/ui/guide/_responsive.sass */
+img, audio, video, canvas { max-width: 100%; }

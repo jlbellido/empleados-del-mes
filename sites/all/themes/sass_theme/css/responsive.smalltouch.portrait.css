@@ -1,0 +1,14 @@
+/*   Important Information about this CSS File  - Do not delete or rename this file, if you do not use it leave it blank (delete everything) and the file will be skipped when you enable Production Mode in the Global theme settings.  - Read the _README file in this directory, it contains useful help and other information. */
+/* Increase the default font size on small touch devices */
+/* line 14, ../sass/responsive.smalltouch.portrait.sass */
+body { font-size: 100%; }
+
+/* ============================================================================= Mobile Menu Toggle See your theme settings extensions for how to enable the menu toggle. These are example styles for the menu toggle menu, you can use these in the relevant responsive stylesheets as required. Modify to suit your design. ========================================================================== */
+/* line 23, ../sass/responsive.smalltouch.portrait.sass */
+.at-mt .at-menu-toggle { /* The toggle link */ /* Menu items */ }
+/* line 25, ../sass/responsive.smalltouch.portrait.sass */
+.at-mt .at-menu-toggle h2 { margin-bottom: 5px; }
+/* line 27, ../sass/responsive.smalltouch.portrait.sass */
+.at-mt .at-menu-toggle h2 a { background: #eeeeee; border: 2px solid #cccccc; padding: 2px 10px; }
+/* line 32, ../sass/responsive.smalltouch.portrait.sass */
+.at-mt .at-menu-toggle ul.menu li a { background: #eeeeee; border-bottom: 1px solid white; }
